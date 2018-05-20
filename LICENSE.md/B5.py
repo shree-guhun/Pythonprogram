@@ -1,9 +1,9 @@
-a=float(input("Enter the 1st number:"))
-b=float(input("Enter the 2nd number:"))
-c=float(input("Enter the 3rd number:"))
-if(a>b):
+A=float(input("Enter the 1st number:"))
+B=float(input("Enter the 2nd number:"))
+C=float(input("Enter the 3rd number:"))
+if(A>B):
   print("A is big")
-elif(b>c):
+elif(B>C):
   print("B is big")
 else:
   print("C is big")
