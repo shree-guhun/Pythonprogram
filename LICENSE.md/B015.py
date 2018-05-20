@@ -1,5 +1,5 @@
-l=int(input())
-u=int(input())
-for i in range(l,u):
+lo=int(input())
+up=int(input())
+for i in range(lo,up):
   if(i%2==0):
     print(i)
