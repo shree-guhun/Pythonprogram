@@ -1,12 +1,12 @@
-N=int(input())
+N1=int(input())
 sum=0
-temp=N
-if N<=100000:
+temp=N1
+if N1<=100000:
   while temp>0:
     digit=temp%10
     sum+=digit**3
     temp//=10
-  if N==sum:
+  if N1==sum:
    print("yes")
   else:
     print("No")
