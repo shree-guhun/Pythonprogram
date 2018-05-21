@@ -1,10 +1,10 @@
 def f(s,n,m):
-	su=0
+	su1=0
 	while(True):
-		su+=n+m
-		if s==su:
+		su1+=n+m
+		if s==su1:
 			return 'yes'
-		if su>s:
+		if su1>s:
 			break
 	return 'no'
 def main():
