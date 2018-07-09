@@ -1,18 +1,18 @@
 def f1(l):
 	l.sort(reverse=True)
-	s=''
+	s1=''
 	c=0
 	new=''
 	for i in l:
-		s+=str(i)
+		s1+=str(i)
 		c+=1
-	print(s)
+	print(s1)
 	c=0
-	for i in range(len(s)-1,-1,-1):
+	for i in range(len(s1)-1,-1,-1):
 		if c==3:
 			c=0
 			new+=','
-		new+=s[i]
+		new+=s1[i]
 		c=c+1
 	print(new[::-1])
 def main():
